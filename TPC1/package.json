@@ -1,0 +1,25 @@
+{
+  "name": "tpc1",
+  "version": "1.0.0",
+  "description": "TPC1 de engeharia web",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/rafael-vilasboas/EngWeb2025"
+  },
+  "keywords": [
+    "EngWeb2025",
+    "JavaScript",
+    "Json-Server",
+    "Npm"
+  ],
+  "author": "Rafael Vilas Boas",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.9"
+  }
+}

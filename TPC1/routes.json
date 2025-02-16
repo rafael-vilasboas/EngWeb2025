@@ -1,0 +1,5 @@
+{
+    "/reparacoes/:id": "/reparacoes?nif=:id",
+    "/intervencoes/:id": "/intervencoes?codigo=:id",
+    "/veiculos/:id": "/veiculos?matricula=:id"
+}
