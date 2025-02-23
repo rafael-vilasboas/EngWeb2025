@@ -201,7 +201,7 @@ else if (req.url.match(/curso\/.+$/)) {
     }
 ```
 
-Aqui é primeiro feito o pedido do curso com o id presente no url à API do `json-server`, depois de recibida a resposta dentro desse mesmo pedido é feito novamente outro pedido dos alunos que frequentam esse curso à API do `json-server`, só depois de receber a resposta deste è então chamada a função `genAlunoPage` para gerar a página
+Aqui é primeiro feito o pedido do curso com o id presente no url à API do `json-server`, depois de recibida a resposta dentro desse mesmo pedido é feito novamente outro pedido dos alunos que frequentam esse curso à API do `json-server`, só depois de receber a resposta deste è então chamada a função `genCursoPage` para gerar a página
 
 > [!IMPORTANT]
 > É necessário que o pedido dos alunos que frequentam o curso seja feito dentro da função do pedido inicial, que responde ao pedido do curso, para que sejam devidamente efetuados os resultados dos pedidos, devido a tratarem-se de pedidos assíncronos
