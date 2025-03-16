@@ -1,0 +1,14 @@
+extends layout
+
+block content
+  .w3-card4
+    header.w3-container.w3-blue
+      h1= title
+    .w3-container
+      h2= ator
+    .w3-container
+      h3 Filmes
+      ul.w3-ul.w3-hoverable
+        each filme in filmes
+          li
+            a(href="/filme/" + filme.id onmouseover="this.style='color: white'" onmouseout="this.style='color: black'")= filme.title
