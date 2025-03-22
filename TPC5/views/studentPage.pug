@@ -1,0 +1,17 @@
+extends layout
+
+block content
+  .w3-card4
+    header.w3-container.w3-teal
+      h1= title
+    .w3-container
+      h2 Aluno
+    .w3-container
+      h3 id: #{aluno.id}
+      h3 nome: #{aluno.nome}
+      h3 git: #{aluno.git}
+      h3 tpcs:
+      ul.w3-ul.w3-hoverable
+        each i in [1, 2, 3, 4, 5, 6, 7, 8]
+          if aluno['tpc' + i] == 1
+            li tpc#{i}
